@@ -165,3 +165,9 @@ h2 {
    flex-grow: 1;
   }
 }
+
+
+/* Réponses aux questions de recul
+align-items agit sur le sens à côté. En colonne, ce sens est la gauche-droite.
+Sans flex-grow, la barre reste petite. Avec sur les temps aussi, elle partage la place et devient plus courte.
+Le téléphone est le cas simple, on l’écrit d’abord puis on ajoute le grand écran. */
