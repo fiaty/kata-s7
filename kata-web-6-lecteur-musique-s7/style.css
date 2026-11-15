@@ -138,7 +138,18 @@ h2 {
    flex-grow: 1;
 }
 /* ---------- TODO 5 — La barre de contrôle ---------- */
-
-
-
+.progression {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.barre{
+   flex-grow: 1;
+}
+.boutons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+}
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
